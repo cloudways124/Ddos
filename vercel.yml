@@ -3,6 +3,6 @@ version: 2
 functions:
   api:
     runtime: python3.9
-    installCommand: "python -m pip install --upgrade pip && pip install -r requirements.txt && chmod +x THAKUR"
+    installCommand: "pip install -r requirements.txt"
     includeFiles: "chmod +x THAKUR"
     startCommand: "python Spike.py"
