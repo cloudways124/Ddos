@@ -1,0 +1,8 @@
+# Alternative for better Python support
+version: 2
+functions:
+  api:
+    runtime: python3.9
+    includeFiles: "chmod +x THAKUR"
+    installCommand: "python -m pip install --upgrade pip && pip install -r requirements.txt && chmod +x THAKUR"
+    startCommand: "python Spike.py"
