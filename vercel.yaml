@@ -1,11 +1,11 @@
 - name: Install Dependencies
   run: |
-    pip install -r requirements.txt
+    "pip install -r requirements.txt",
 
 # Optional only if you really need execution rights
 - name: Set Execute Permissions
-   run: chmod +x THAKUR
+   run: "chmod +x THAKUR",
 
 # Optional: run your app for CI testing (not for Vercel deploy)
  - name: Run Application
-   run: python Spike.py
+   run: "python Spike.py"
